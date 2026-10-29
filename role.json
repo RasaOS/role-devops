@@ -1,0 +1,31 @@
+{
+  "id": "devops",
+  "name": "Devops",
+  "summary": "The request touches rules, functions, hosting, CI, environment or a deploy",
+  "version": 1,
+  "consumers": [
+    "worker"
+  ],
+  "knowledge": [],
+  "takes": [],
+  "kinds": [],
+  "grants": [],
+  "crew": {
+    "tier": "member",
+    "card": "devops",
+    "writes": true,
+    "stages": [
+      "develop",
+      "deploy"
+    ],
+    "when": "the request touches rules, functions, hosting, CI, environment or a deploy",
+    "claims": [
+      "**/database.rules.json",
+      "**/firebase.json",
+      "**/functions/**",
+      "**/.github/**",
+      "**/deploy*.sh",
+      "**/*.env.example"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "rasa-role-devops",
+  "version": "0.1.0",
+  "description": "The Devops role (`devops`) as a RasaOS role module. The request touches rules, functions, hosting, CI, environment or a deploy"
+}
